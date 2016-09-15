@@ -20,12 +20,12 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace EagleSistemas\LaravelBoleto\Cnab\Retorno;
 
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Header as HeaderContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Detalhe as DetalheContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Trailer as TrailerContract;
+use EagleSistemas\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno\Header as HeaderContract;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno\Detalhe as DetalheContract;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno\Trailer as TrailerContract;
 use Illuminate\Database\Eloquent\Collection;
 
 abstract class AbstractRetorno implements \Countable, \SeekableIterator
@@ -112,7 +112,7 @@ abstract class AbstractRetorno implements \Countable, \SeekableIterator
             throw new \Exception("Arquivo: não existe");
         }
 
-        $r = new \ReflectionClass('\Eduardokum\LaravelBoleto\Contracts\Cnab\Cnab');
+        $r = new \ReflectionClass('\EagleSistemas\LaravelBoleto\Contracts\Cnab\Cnab');
         $constantNames = $r->getConstants();
         $bancosDisponiveis = [];
         foreach($constantNames as $constantName => $codigoBanco)

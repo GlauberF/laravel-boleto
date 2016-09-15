@@ -20,9 +20,9 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Contracts\Boleto;
+namespace EagleSistemas\LaravelBoleto\Contracts\Boleto;
 
-Use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+Use EagleSistemas\LaravelBoleto\Contracts\Pessoa as PessoaContract;
 
 interface Boleto
 {

@@ -20,19 +20,19 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Boleto;
+namespace EagleSistemas\LaravelBoleto\Boleto;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Boleto\Render\Html;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Boleto\Render\Html;
+use EagleSistemas\LaravelBoleto\Boleto\Render\Pdf;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use EagleSistemas\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use EagleSistemas\LaravelBoleto\Util;
 
 /**
  * Class AbstractBoleto
  *
- * @package Eduardokum\LaravelBoleto\Boleto
+ * @package EagleSistemas\LaravelBoleto\Boleto
  */
 abstract class AbstractBoleto implements BoletoContract
 {

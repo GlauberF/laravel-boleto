@@ -20,9 +20,9 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace EagleSistemas\LaravelBoleto\Cnab\Retorno;
 
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Trailer as TrailerContract;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno\Trailer as TrailerContract;
 
 class Trailer implements TrailerContract
 {

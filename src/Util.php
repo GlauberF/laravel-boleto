@@ -20,7 +20,7 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto;
+namespace EagleSistemas\LaravelBoleto;
 
 use Carbon\Carbon;
 
@@ -31,7 +31,7 @@ use Carbon\Carbon;
  * @TODO validar processar
  * @TODO validar float nos numeros
  *
- * @package Eduardokum\LaravelBoleto
+ * @package EagleSistemas\LaravelBoleto
  */
 final class Util
 {

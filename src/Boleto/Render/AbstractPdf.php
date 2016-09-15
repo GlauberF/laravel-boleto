@@ -20,7 +20,7 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace EagleSistemas\LaravelBoleto\Boleto\Render;
 
 use fpdf\FPDF;
 

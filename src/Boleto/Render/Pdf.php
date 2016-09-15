@@ -20,11 +20,11 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace EagleSistemas\LaravelBoleto\Boleto\Render;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoInterface;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Boleto as BoletoInterface;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
+use EagleSistemas\LaravelBoleto\Util;
 
 class Pdf extends AbstractPdf implements PdfContract
 {

@@ -20,12 +20,12 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Banco;
+namespace EagleSistemas\LaravelBoleto\Cnab\Remessa\Banco;
 
-use Eduardokum\LaravelBoleto\Cnab\Remessa\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Cnab\Remessa\AbstractRemessa;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use EagleSistemas\LaravelBoleto\Util;
 
 class Santander extends AbstractRemessa implements RemessaContract
 {

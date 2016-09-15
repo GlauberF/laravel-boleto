@@ -20,7 +20,7 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Contracts\Boleto\Render;
+namespace EagleSistemas\LaravelBoleto\Contracts\Boleto\Render;
 
 Interface Pdf
 {

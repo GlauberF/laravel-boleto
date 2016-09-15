@@ -20,11 +20,11 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Boleto\Banco;
+namespace EagleSistemas\LaravelBoleto\Boleto\Banco;
 
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Boleto\AbstractBoleto;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use EagleSistemas\LaravelBoleto\Util;
 
 class Caixa  extends AbstractBoleto implements BoletoContract
 {

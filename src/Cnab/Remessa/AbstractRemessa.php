@@ -20,11 +20,11 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa;
+namespace EagleSistemas\LaravelBoleto\Cnab\Remessa;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use EagleSistemas\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use EagleSistemas\LaravelBoleto\Util;
 
 abstract class AbstractRemessa
 {

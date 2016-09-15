@@ -20,11 +20,11 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Banco;
+namespace EagleSistemas\LaravelBoleto\Cnab\Retorno\Banco;
 
-use Eduardokum\LaravelBoleto\Cnab\Retorno\AbstractRetorno;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno;
-use Eduardokum\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Cnab\Retorno\AbstractRetorno;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno;
+use EagleSistemas\LaravelBoleto\Util;
 
 class Itau extends AbstractRetorno implements Retorno
 {
@@ -134,7 +134,7 @@ class Itau extends AbstractRetorno implements Retorno
 
         $d = $this->detalheAtual();
 
-        $d->setNossoNumero($this->rem(86, 94, $detalhe))
+        $d->setNossoNumero($this->rem(86, 93, $detalhe))
             ->setNumeroDocumento($this->rem(117, 126, $detalhe))
             ->setOcorrencia($this->rem(109, 110, $detalhe))
             ->setOcorrenciaDescricao(array_get($this->ocorrencias, $d->getOcorrencia(), 'Desconhecida'))

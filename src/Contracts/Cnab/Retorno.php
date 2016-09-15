@@ -20,7 +20,7 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Contracts\Cnab;
+namespace EagleSistemas\LaravelBoleto\Contracts\Cnab;
 
 use Illuminate\Database\Eloquent\Collection;
 

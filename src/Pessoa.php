@@ -27,11 +27,10 @@
  * Time: 06:23
  */
 
-namespace Eduardokum\LaravelBoleto\Boleto;
+namespace EagleSistemas\LaravelBoleto\Boleto;
 
-
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use EagleSistemas\LaravelBoleto\Util;
+use EagleSistemas\LaravelBoleto\Contracts\Pessoa as PessoaContract;
 
 class Pessoa implements PessoaContract
 {

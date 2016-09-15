@@ -20,10 +20,10 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace EagleSistemas\LaravelBoleto\Cnab\Retorno;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Header as HeaderContract;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno\Header as HeaderContract;
 
 class Header implements HeaderContract
 {

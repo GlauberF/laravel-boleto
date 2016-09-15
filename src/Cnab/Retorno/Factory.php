@@ -20,10 +20,10 @@
  *   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace EagleSistemas\LaravelBoleto\Cnab\Retorno;
 
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Cnab;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Cnab;
+use EagleSistemas\LaravelBoleto\Contracts\Cnab\Retorno;
 
 class Factory
 {
